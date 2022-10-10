@@ -13,7 +13,7 @@ try:
         print("4th sector")
     elif (x > 0 and y > 0):
         print("1st sector")
-    elif (x < 0 and y > 0):
+    elif (x > 0 and y < 0):
         print("2nd sector")
     elif (x == 0 and y < 0 or x == 0 and y > 0 ):
         print("dot is on Y axis")
